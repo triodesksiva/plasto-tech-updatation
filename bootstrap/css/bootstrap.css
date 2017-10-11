@@ -1428,7 +1428,7 @@ pre code {
     width: 750px;
   }
   .gallery_images .images {
-    width: 43%;
+    width: 50%;
     float: left;
   }
 }
@@ -2288,10 +2288,10 @@ table th[class*="col-"] {
   overflow-x: auto;
 }
 
-@media screen and (min-width: 600px) {
-  .gallery_images .images {
-    
-    /*padding-left: 14%;*/
+@media screen and (min-width: 600px) and (max-width: 750px) {
+  .gallery_images .images img {
+    width: 300px;
+    height: 300px;
 }
 }
 @media screen and (max-width: 767px) {
@@ -4424,8 +4424,14 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 }
 @media (max-width: 767px)  and (min-width: 560px) {
    .gallery_images .images  {
-    padding-left: 14%;
+    /*padding-left: 14%;*/
   }
+  .navbar-toggle {
+    position: absolute;
+    right: 12px;
+    bottom: 100%;
+  }
+  
 }
 .navbar-inverse .navbar-link {
   color: #9d9d9d;

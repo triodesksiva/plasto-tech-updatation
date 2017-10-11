@@ -287,7 +287,7 @@ blockquote {
 	color: #ffffff;
 }
 .banner-caption h1 {
-	font-size: 60px;
+	font-size: 57px;
 }
 .subfooter p {
 	margin-bottom: 0;
@@ -416,8 +416,8 @@ blockquote {
 
 }
 .gallery_images .images img {
-	width: 337px;
-	height: 337px;
+	width: 100%;
+	height: auto;
 }
 .grid figure {
 	position: relative;
@@ -1186,7 +1186,7 @@ textarea {
 }
 
 .contact-form {
-	margin-bottom: 10%;
+	margin-bottom: 4%;
 }
 
 .contact-form .form-control {
@@ -1299,4 +1299,7 @@ textarea {
     left: 0;
 	right:0;
 	margin: auto;
+}
+.header-left {
+	margin-bottom: 0.5rem;
 }
