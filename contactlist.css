@@ -1,0 +1,35 @@
+.head {
+	background-color: rgba(0, 0, 0, 0.95);
+    padding: 5px 0;
+    color: #fff;
+}
+.banner-caption h1 {
+    font-size: 57px;
+    color: #339BEB;
+    margin-top: 0.6rem;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+@media (max-width: 990px) and (min-width: 768px) {
+	.title h1 {
+		text-align: center;
+		font-size: 45px;
+		margin-top: 0.7rem;
+	}
+}
+@media (max-width: 767px) and (min-width: 567px) {
+	.title h1 {
+		text-align: center;
+		font-size: 40px;
+		margin-top: 0.7rem;
+	}
+}
+@media (max-width: 565px) and (min-width: 320px) {
+	.title h1 {
+		text-align: center;
+		font-size: 35px;
+		margin-top: 0.7rem;
+	}
+}

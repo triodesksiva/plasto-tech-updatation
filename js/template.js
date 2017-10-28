@@ -109,5 +109,24 @@
 			});
 		}
 
+		// AJAX call API
+		// ------------------------------------------------
+		$("#contact-submit").click(function() {
+			var details = {
+				Name: $("#name").val(),
+				Email: $("#email").val(),
+				Subject: $("#subject").val(),
+				Message: $("#message").val()
+			}
+			$.post("http://59de07a84c181d0012a8ce83.mockapi.io/details",details,function(){
+				$("#name").val(""),
+				$("#email").val(""),
+				$("#subject").val(""),
+				$("#message").val("")
+			})
+		});
+		// Table value display using ajax call
+		// -----------------------------------------
+        
 	}); // End document ready
 })(this.jQuery);

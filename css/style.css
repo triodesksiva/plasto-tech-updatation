@@ -294,7 +294,7 @@ blockquote {
 }
 /*Portfolio class and id sections for product images*/
 .portfolio {
-	padding: 100px 0;
+	padding: 100px 0 0;
 	text-align: center;
 }
 .portfolio {
@@ -1181,7 +1181,7 @@ textarea {
 }
 /*Contact us*/
 #contact-us {
-    padding: 70px 0 0;
+    padding: 40px 0 0;
     background-color: #080808;
 }
 
@@ -1302,4 +1302,38 @@ textarea {
 }
 .header-left {
 	margin-bottom: 0.5rem;
+}
+/*============= ui-to top ==================*/ 
+.ui-to-top.active {
+	transform: translateY(0);
+	text-decoration: none;
+}
+.ui-to-top {
+	width: 50px;
+    height: 50px;
+    font-size: 24px;
+    line-height: 46px;
+    color: #FFF;
+    background:	#fdff00;
+    border-radius: 50%;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none;
+    z-index: 20;
+    transition: 0.3s all ease;
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+}
+@media (min-width: 480px)
+{
+.ui-to-top {
+    right: 40px;
+    bottom: 40px;
+    }
+}
+.fa-angle-up:hover {
+    text-decoration: none;
 }
