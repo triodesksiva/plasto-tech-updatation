@@ -81,11 +81,11 @@
 
 		// Isotope filters
 		//-----------------------------------------------
-		if ($('.isotope-container').length>0) {
+		if ($('.isotope-products').length>0) {
 			$(window).load(function() {
-				$('.isotope-container').fadeIn();
-				var $container = $('.isotope-container').isotope({
-					itemSelector: '.isotope-item',
+				$('.isotope-products').fadeIn();
+				var $container = $('.isotope-products').isotope({
+					itemSelector: '.images',
 					layoutMode: 'masonry',
 					transitionDuration: '0.6s',
 					filter: "*"

@@ -294,7 +294,7 @@ blockquote {
 }
 /*Portfolio class and id sections for product images*/
 .portfolio {
-	padding: 100px 0 0;
+	padding: 70px 0 0;
 	text-align: center;
 }
 .portfolio {
@@ -302,7 +302,8 @@ blockquote {
 }
 
 .portfolio section#products {
-	margin-top: 75px;
+	margin-top: 20px;
+	padding-bottom: 40px;
 }
 
 /*-- //Paddings --*/
@@ -850,20 +851,32 @@ ul.social-icons li a .fa {
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus,
 .nav-pills > li > a:hover {
-	background-color: #55acee;
-	border-color: #55acee;
-	color: #ffffff;
+	/*background-color: #55acee;
+	border-color: #55acee;*/
+	color: #55acee;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #339BEB;
+}
+.nav-pills > li.active > 
+.nav-pills > li > a,
+ {
+	border-radius: 0px;
+	padding: 8px 20px;
+	/*border: 1px solid #cacaca;*/
+	color: #339BEB;
+	font-size: 17px;
+	text-transform: uppercase;
+	font-weight: 500;
 }
 .nav-pills > li > a {
-	border-radius: 0;
+	border-radius: 0px;
 	padding: 8px 20px;
-	border: 1px solid #cacaca;
-	color: #666666;
-	font-size: 12px;
+	/*border: 1px solid #cacaca;*/
+	color: #b3b1b1;
+	font-size: 15px;
 	text-transform: uppercase;
-	font-weight: 300;
+	font-weight: 500;
 }
-
 /* Forms
 ---------------------------------- */
 .form-control {
@@ -1314,7 +1327,7 @@ textarea {
     font-size: 24px;
     line-height: 46px;
     color: #FFF;
-    background:	#fdff00;
+    background:	#205493;
     border-radius: 50%;
     position: fixed;
     right: 15px;
